@@ -173,7 +173,6 @@ void dequeue_task(struct task_struct *p, struct sched_array *array)
 /* sched_fork
  * Sets up schedule info for a newly forked task
  */
-// 건기
 void sched_fork(struct task_struct *p)
 {	
 	// child first time slice 설정 (기본값 10)
